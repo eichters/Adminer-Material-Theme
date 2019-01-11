@@ -1,4 +1,6 @@
-# Adminer-Material-Theme
+# Dark Material Theme for Adminer
+
+## Forked from [Adminer-Material-Theme](https://github.com/arcs-/Adminer-Material-Theme)
 
 An Adminer theme inspired by material design.
 
@@ -8,21 +10,3 @@ An Adminer theme inspired by material design.
 * Get a copy of [Adminer](https://www.adminer.org/)
 * Download the adminer.css
 * Put them both in the same web folder
-* ✓
-
-(works best in Google Chrome)
-
-### Customization
-A SCSS file is available under `src/adminer.scss`, allowing you to set the primary color, inactive color, header color, etc. . You can also modify the icons if needed.
-
-After you've finished modifying, you can then transpile the `adminer.scss` file by going to the project's root and executing `grunt`. After you'll have a new `adminer.css` file
-
-For this to work you first need to execute `npm install` and `npm install grunt -g`, also check out [this](https://github.com/gruntjs/grunt-contrib-sass#sass-task)
-
-### Preview
-<img src="https://stillh.art/project/adminer/preview.png" alt="a preview"/>
-
-### unsolvable issues
-until a newer version of Adminer is released
-
-* "Import" - button on table-data view not stylized correctly, due to wrong HTML tag (`div` instead of `fieldset`)
